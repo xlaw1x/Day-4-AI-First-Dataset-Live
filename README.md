@@ -30,7 +30,9 @@ _**Cost_PHP**_: Estimated cost of shipment in PHP.
 
 _**Notes**_: Additional notes or instructions for handling, packaging, or delivery.
 
-
+...
+...
+...
 
 **Parcel_Information_Dataset**
 
