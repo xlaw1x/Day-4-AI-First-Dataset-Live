@@ -1,0 +1,21 @@
+Shipment_ID,Farmer_Name,Product_Type,Weight_kg,Origin,Destination,Transport_Type,Temp_Control,Packaging_Type,Traffic_Condition,Season,Distance_km,Estimated_Transit_Hours,Cost_PHP,Notes
+S001,Ramon Santos,Kamatis,150,Benguet,Metro Manila,Refrigerated Truck,Yes,Ventilated Crates,Heavy,Rainy,250,10,3500,Peak season for tomatoes
+S002,Linda Cruz,Mangga,200,Zambales,Quezon City,Non-Refrigerated,No,Sturdy Cardboard Box,Moderate,Dry,190,6,2500,"Harvested ripe, needs quick transport"
+S003,Benjie Reyes,Bangus,300,Dagupan City,Makati City,Refrigerated Van,Yes,Insulated Coolers,Light,Hot/Dry,210,8,4800,Strict temperature control
+S004,Victor Flores,Bawang,100,Ilocos Norte,Pasig City,Open Air Truck,No,Mesh Bags,Heavy,Rainy,330,12,4000,Odor control needed
+S005,Carding Mendoza,Saging,180,Davao City,Cebu City,Refrigerated Ship,Yes,Sturdy Crates,Moderate,Humid/Rainy,580,18,9000,Ensure crates are tightly packed
+S006,Lito Bautista,Repolyo,250,Nueva Vizcaya,Caloocan City,Refrigerated Truck,Yes,Cardboard + Wrapping,Moderate,Wet Season,230,9,3800,Harvested early for freshness
+S007,Maria Navarro,Pineapple,220,Bukidnon,Quezon City,Refrigerated Truck,Yes,Ventilated Crates,Light,Dry,560,16,7500,"Bumpy route expected, use extra padding"
+S008,Isagani Ramos,Langka,100,Laguna,Pasay City,Non-Refrigerated,No,Cardboard Boxes,Heavy,Dry,80,3,1500,Transport immediately to avoid overripening
+S009,Pepe Gonzales,Pandesal,50,Pampanga,Makati City,Non-Refrigerated,No,Moisture-Control Bags,Light,Hot,90,2,1200,Ensure bags stay dry
+S010,Pilar Villanueva,Kalabasa,130,Tarlac,Taguig City,Open Air Truck,No,Ventilated Crates,Moderate,Wet Season,100,4,2200,"Sensitive to moisture, use ventilated crates"
+S011,Andres Garcia,Mais,250,Quezon Province,Mandaluyong City,Open Air Truck,No,Burlap Bags,Heavy,Rainy,160,7,3100,Needs breathable packaging
+S012,Rosie Torres,Bayabas,75,Laguna,Manila,Non-Refrigerated,No,Sturdy Crates,Light,Humid,60,2,1000,"Easily bruised, pack carefully"
+S013,Tony Castillo,Talong,180,Cavite,Quezon City,Refrigerated Truck,Yes,Plastic Wrapping,Heavy,Wet Season,40,1,1600,"Harvested recently, handle gently"
+S014,Mila Hernandez,Malunggay,20,Batangas,Makati City,Open Air Truck,No,Lightweight Bundles,Light,Hot,110,2.5,900,"Delicate, prone to wilting"
+S015,Nestor Martinez,Dalandan,80,Nueva Ecija,Parañaque City,Refrigerated Truck,Yes,Ventilated Crates,Moderate,Rainy,140,3.5,2000,Handle carefully to avoid bruising
+S016,Fe Ramirez,Pakwan,300,Tarlac,Las Piñas City,Non-Refrigerated,No,Sturdy Crates,Heavy,Rainy,170,6,3500,"Must keep upright, easily damaged"
+S017,Juanito de la Cruz,Mais,220,Quezon Province,Manila,Open Air Truck,No,Burlap Bags,Moderate,Humid,130,4.5,2800,"Needs breathable packaging, frequent airing"
+S018,Rogelio Lopez,Papaya,150,Davao del Sur,Muntinlupa City,Refrigerated Truck,Yes,Foam Padding,Light,Humid,590,15,8500,Ensure foam padding for delicate produce
+S019,Delfin Morales,Sibuyas,120,Batanes,Makati City,Non-Refrigerated,No,Mesh Bags,Light,Rainy,620,17,7800,"Ensure bags are secured, needs dry conditions"
+S020,Susan Aguilar,Patatas,200,Bukidnon,Quezon City,Open Air Truck,No,Ventilated Crates,Heavy,Dry,560,18,6800,Pack tightly to prevent shifting during transit
