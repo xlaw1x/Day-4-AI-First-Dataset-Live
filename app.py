@@ -35,16 +35,26 @@ with st.sidebar :
         with r : st.empty()
 
     options = option_menu(
-        "Dashboard", 
-        ["Home", "About Us", "Model"],
-        icons = ['book', 'globe', 'tools'],
-        menu_icon = "book", 
-        default_index = 0,
-        styles = {
-            "icon" : {"color" : "#dec960", "font-size" : "20px"},
-            "nav-link" : {"font-size" : "17px", "text-align" : "left", "margin" : "5px", "--hover-color" : "#262730"},
-            "nav-link-selected" : {"background-color" : "#262730"}          
-        })
+    "Dashboard", 
+    ["Home", "About Us", "Model"],
+    icons = ['house', 'info', 'gear'],
+    menu_icon = "book", 
+    default_index = 0,
+    styles = {
+        "icon" : {"color" : "#8fbc8f", "font-size" : "20px"},  # Earthy green for AI + agriculture theme
+        "nav-link" : {
+            "font-size" : "17px", 
+            "text-align" : "left", 
+            "margin" : "5px", 
+            "--hover-color" : "#5f8d4e"  # Earthy green, representing agriculture (hover effect)
+        },
+        "nav-link-selected" : {"background-color" : "#4e7035"},  # Earthy brown/green for active selection
+        "menu-icon" : {
+            "background-color": "#00000", 
+            "color": "#3e6b2e"  # Darker green, representing the AI connection to agriculture
+        }
+    }
+)
 
 if 'messagess' not in st.session_state:
     st.session_state.messagess = []
@@ -56,10 +66,16 @@ if 'chat_session' not in st.session_state:
 
 if options == "Home":
 
-    st.title("Welcome to Agrikonek AI!")
+    st.markdown(
+    """
+    <h1 style="font-size: 36px;">Welcome to <span style="color: #4CAF50;">Agrikonek AI</span>!</h1>
+    """,
+    unsafe_allow_html=True
+)
     st.write("Agrikonek AI is a digital logistics platform designed to bridge the gap between rural agricultural producers and urban markets in the Philippines.")
     st.write("Our purpose is to empower Filipino farmers by simplifying fresh produce distribution, reducing waste, and increasing earning potential through smarter logistics solutions.")
     st.write("Agrikonek AI was inspired by the need to create a more resilient agricultural supply chain, addressing challenges such as food spoilage, inefficient routes, and limited market access for rural communities.")
+    
 
 elif options == "About Us":
     st.title("About Us")
