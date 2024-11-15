@@ -82,9 +82,9 @@ elif options == "About Us":
     st.write("# Leonard Ray Inciso")
     st.write("## Data Scientist and AI Practitioner")
     st.write("I specialize in leveraging data and artificial intelligence to create innovative and impactful solutions. With a passion for empowering communities and solving real-world problems, I am dedicated to driving smarter logistics and efficient processes.")
-    st.text("Connect with me on LinkedIn: https://linkedin.com/in/leonard-ray-inciso-5b8474283/")
-    st.text("Email: lrinciso@up.edu.ph")
-    st.text("GitHub: https://github.com/xlaw1x")
+    st.markdown("Connect with me on LinkedIn: [https://linkedin.com/in/leonard-ray-inciso-5b8474283/](https://linkedin.com/in/leonard-ray-inciso-5b8474283/)")
+    st.markdown("Email: [lrinciso@up.edu.ph](mailto:lrinciso@up.edu.ph)")
+    st.markdown("GitHub: [https://github.com/xlaw1x](https://github.com/xlaw1x)")
     st.text("Other Accounts and Business Contacts: Feel free to reach out for collaborations and inquiries.")
     st.write("\n")
 
@@ -152,7 +152,7 @@ Response: "Fish shipments like bangus require strict temperature control and are
          if 'messagess' not in st.session_state:
              st.session_state.messagess = []
              st.session_state.messagess.append({"role": "system", "content": System_Prompt})
-             chat =  openai.ChatCompletion.create(model = "gpt-4o-mini", messages = st.session_state.messagess, temperature=0.2, max_tokens=500, top_p=1, frequency_penalty=0, presence_penalty=0)
+             chat =  openai.ChatCompletion.create(model = "gpt-4o-mini", messages = st.session_state.messagess, temperature=0.3, max_tokens=500, top_p=1, frequency_penalty=0, presence_penalty=0)
              response = chat.choices[0].message.content
              st.session_state.messagess.append({"role": "assistant", "content": response})
 
