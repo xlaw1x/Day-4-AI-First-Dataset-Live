@@ -19,13 +19,6 @@ from streamlit_extras.mention import mention
 
 warnings.filterwarnings("ignore")
 
-# Streamlit page configuration
-st.set_page_config(
-    page_title="Agrikonek AI",
-    page_icon="🍃",
-    layout="wide"
-)
-
 st.set_page_config(page_title="Agrikonek AI", page_icon="🍃", layout="wide")
 
 with st.sidebar :
